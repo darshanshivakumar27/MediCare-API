@@ -22,7 +22,9 @@ urlpatterns = [
     path('api/auth/', include('apps.users.urls')),
     path('api/', include('apps.patients.urls')),
     path('api/', include('apps.doctors.urls')),
+    path('api/', include('apps.mappings.urls')),
 ]
+
 
 
 
