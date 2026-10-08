@@ -127,6 +127,9 @@ SIMPLE_JWT = {
 }
 
 
+# Custom User Model
+AUTH_USER_MODEL = 'users.User'
+
 # Password validation
 AUTH_PASSWORD_VALIDATORS = [
     {
